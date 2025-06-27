@@ -1,0 +1,12 @@
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\Backend.Core.dll.config
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\Backend.Core.dll
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\Backend.Core.pdb
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\EntityFramework.dll
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\EntityFramework.xml
+C:\Users\efeyl\source\repos\Backend\Backend.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efeyl\source\repos\Backend\Backend.Core\obj\Debug\Backend.Core.csproj.AssemblyReference.cache
+C:\Users\efeyl\source\repos\Backend\Backend.Core\obj\Debug\Backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\efeyl\source\repos\Backend\Backend.Core\obj\Debug\Backend..C17EE414.Up2Date
+C:\Users\efeyl\source\repos\Backend\Backend.Core\obj\Debug\Backend.Core.dll
+C:\Users\efeyl\source\repos\Backend\Backend.Core\obj\Debug\Backend.Core.pdb

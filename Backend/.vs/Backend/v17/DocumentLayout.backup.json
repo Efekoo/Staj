@@ -1,0 +1,239 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|c:\\users\\efeyl\\source\\repos\\backend\\backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40393B80-E412-4216-B6B7-1A5CDEB27FF3}|Backend.DataAccess\\Backend.DataAccess.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.dataaccess\\context\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40393B80-E412-4216-B6B7-1A5CDEB27FF3}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\context\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|c:\\users\\efeyl\\source\\repos\\backend\\backend.api\\dtos\\sellitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\dtos\\sellitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|c:\\users\\efeyl\\source\\repos\\backend\\backend.api\\dtos\\purchaseitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\dtos\\purchaseitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|c:\\users\\efeyl\\source\\repos\\backend\\backend.api\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|c:\\users\\efeyl\\source\\repos\\backend\\backend.api\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.core\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.core\\utilities\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\utilities\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.core\\entities\\marketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\marketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.core\\entities\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.core\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|C:\\Users\\efeyl\\source\\repos\\Backend\\backend.core\\entities\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC56177-390B-40E4-B431-468BCC0F33D3}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|c:\\users\\efeyl\\source\\repos\\backend\\backend.api\\dtos\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\dtos\\updatepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SellItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\SellItemDto.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Dtos\\SellItemDto.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\SellItemDto.cs",
+              "RelativeToolTip": "Backend.API\\Dtos\\SellItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:14:47.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Dtos\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\UserRegisterDto.cs",
+              "RelativeToolTip": "Backend.API\\Dtos\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T07:23:33.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PurchaseItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\PurchaseItemDto.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Dtos\\PurchaseItemDto.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\PurchaseItemDto.cs",
+              "RelativeToolTip": "Backend.API\\Dtos\\PurchaseItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:35:52.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Context\\Context.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Context\\Context.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Context\\Context.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Context\\Context.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:51:48.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Dtos\\UserLoginDto.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\UserLoginDto.cs",
+              "RelativeToolTip": "Backend.API\\Dtos\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:12:48.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdatePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\UpdatePasswordDto.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Dtos\\UpdatePasswordDto.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Dtos\\UpdatePasswordDto.cs",
+              "RelativeToolTip": "Backend.API\\Dtos\\UpdatePasswordDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:14:04.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Backend.API.csproj",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+              "RelativeDocumentMoniker": "Backend.API\\Backend.API.csproj",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+              "RelativeToolTip": "Backend.API\\Backend.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-27T06:59:44.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\Player.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\Player.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\Player.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:11:23.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Utilities\\OperationResult.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Utilities\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Utilities\\OperationResult.cs",
+              "RelativeToolTip": "Backend.Core\\Utilities\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:37:41.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MarketItem.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\MarketItem.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\MarketItem.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\MarketItem.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\MarketItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:38:39.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FriendRequest.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\FriendRequest.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\FriendRequest.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\FriendRequest.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\FriendRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:42:03.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\InventoryItem.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\InventoryItem.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\InventoryItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:39:44.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Score.cs",
+              "DocumentMoniker": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\Score.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\Score.cs",
+              "ToolTip": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Entities\\Score.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\Score.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T08:15:28.073Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

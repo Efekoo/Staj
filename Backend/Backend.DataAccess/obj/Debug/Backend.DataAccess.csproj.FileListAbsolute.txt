@@ -1,0 +1,15 @@
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\Backend.DataAccess.dll.config
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\Backend.DataAccess.dll
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\Backend.DataAccess.pdb
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\Backend.Core.dll
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\Backend.Core.pdb
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\Backend.Core.dll.config
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\obj\Debug\Backend.DataAccess.csproj.AssemblyReference.cache
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\obj\Debug\Backend.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\obj\Debug\Backend..FBE6921F.Up2Date
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\obj\Debug\Backend.DataAccess.dll
+C:\Users\efeyl\source\repos\Backend\Backend.DataAccess\obj\Debug\Backend.DataAccess.pdb
