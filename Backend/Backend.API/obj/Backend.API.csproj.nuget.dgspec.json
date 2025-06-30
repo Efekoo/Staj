@@ -32,11 +32,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj": {
-                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -59,11 +55,15 @@
               "target": "Package",
               "version": "[4.0.3, )"
             },
-            "EntityFramework": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[6.5.1, )"
+              "version": "[9.0.6, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.6, )"
             },
@@ -72,6 +72,18 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.6.1, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.6.3, )"
             }
           },
           "imports": [
@@ -95,65 +107,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj",
-        "projectName": "Backend.Business",
-        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj": {
-                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj"
-              },
-              "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj": {
-                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
-        "projectName": "Backend.Core",
-        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj": {
-      "restore": {
-        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
-        "projectName": "Backend.DataAccess",
-        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
-        "UsingMicrosoftNETSdk": false,
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj": {
-                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
       }
     }
   }
