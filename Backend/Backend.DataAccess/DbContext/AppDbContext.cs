@@ -1,12 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Backend.Core.Entities;
+﻿using Backend.Core.Entities;
+using Microsoft.EntityFrameworkCore;
 
-namespace Backend.DataAccess.DbContext
+namespace Backend.DataAccess.Contexts
 {
     public class AppDbContext : DbContext
     {

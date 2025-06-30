@@ -1,5 +1,7 @@
-﻿using Backend.API.Dtos;
+﻿using AutoMapper;
+using Backend.API.Dtos;
 using Backend.Core.Entities;
+using Backend.Core.Helpers;
 using Backend.Core.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,20 +12,20 @@ namespace Backend.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IUserService _userService;
+        private readonly IConfiguration _config;
+        private readonly IMapper _mapper;
 
-        public AuthController(IUserService userService)
+        public AuthController(IUserService userService, IConfiguration config, IMapper mapper)
         {
             _userService = userService;
+            _config = config;
+            _mapper = mapper;
         }
 
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserRegisterDto dto)
         {
-            var user = new User
-            {
-                Username = dto.Username,
-                Email = dto.Email
-            };
+            var user = _mapper.Map<User>(dto);
 
             bool result = await _userService.RegisterAsync(user, dto.Password);
             if (!result) return BadRequest(new { message = "Email already exists." });
@@ -35,9 +37,16 @@ namespace Backend.API.Controllers
         public async Task<IActionResult> Login(UserLoginDto dto)
         {
             var user = await _userService.LoginAsync(dto.Email, dto.Password);
-            if (user == null) return Unauthorized(new { message = "Invalid credentials." });
+            if (user == null)
+                return Unauthorized(new { message = "Invalid credentials." });
 
-            return Ok(new { message = "Login successful", user.Id, user.Username });
+            var token = TokenHelper.GenerateToken(user, _config);
+
+            return Ok(new
+            {
+                token,
+                user = new { user.Id, user.Username, user.Email }
+            });
         }
     }
 }

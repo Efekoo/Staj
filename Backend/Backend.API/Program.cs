@@ -1,14 +1,35 @@
-﻿using Backend.Business.Services;
+﻿using Backend.Business.Mapping;
+using Backend.Business.Services;
 using Backend.Core.Interfaces;
-using Backend.DataAccess;
+using Backend.DataAccess.Contexts;
 using Backend.DataAccess.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        var config = builder.Configuration;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = config["Jwt:Issuer"],
+            ValidAudience = config["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(config["Jwt:Key"]!))
+        };
+    });
+
+
+builder.Services.AddAuthorization();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -18,7 +39,44 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<IUserService, UserManager>();
 
+
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Backend API", Version = "v1" });
+
+
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "JWT token."
+    });
+
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+
 var app = builder.Build();
+
 
 if (app.Environment.IsDevelopment())
 {
@@ -26,7 +84,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/swagger");
+    return Task.CompletedTask;
+});
+
 app.UseHttpsRedirection();
-app.UseAuthorization();
+
+app.UseAuthentication(); 
+app.UseAuthorization();  
+
 app.MapControllers();
 app.Run();
