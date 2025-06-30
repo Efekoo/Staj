@@ -3914,11 +3914,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+      "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
       "projectName": "Backend.API",
-      "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+      "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
       "packagesPath": "C:\\Users\\efeyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\obj\\",
+      "outputPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3940,8 +3940,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj": {
-              "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj"
+            "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj": {
+              "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj"
             }
           }
         }

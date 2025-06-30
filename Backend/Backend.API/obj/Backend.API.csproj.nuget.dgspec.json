@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj": {}
+    "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj": {
+    "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
         "projectName": "Backend.API",
-        "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
         "packagesPath": "C:\\Users\\efeyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\obj\\",
+        "outputPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj": {
-                "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj"
+              "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj": {
+                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj"
               }
             }
           }
@@ -97,20 +97,20 @@
         }
       }
     },
-    "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj": {
+    "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj",
+        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj",
         "projectName": "Backend.Business",
-        "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Business\\Backend.Business.csproj",
+        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj": {
-                "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj"
+              "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj": {
+                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj"
               },
-              "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj"
+              "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj": {
+                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj"
               }
             }
           }
@@ -120,11 +120,11 @@
         "net48": {}
       }
     },
-    "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj": {
+    "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj",
+        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
         "projectName": "Backend.Core",
-        "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj",
+        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
@@ -136,17 +136,17 @@
         "net48": {}
       }
     },
-    "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj": {
+    "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
+        "projectUniqueName": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
         "projectName": "Backend.DataAccess",
-        "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
+        "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net48": {
             "projectReferences": {
-              "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj": {
-                "projectPath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.Core\\Backend.Core.csproj"
+              "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj": {
+                "projectPath": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MRxqd40/ZVQ=",
+  "dgSpecHash": "YNJOcM88vGI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\efeyl\\source\\repos\\Backend\\Backend.API\\Backend.API.csproj",
+  "projectFilePath": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\efeyl\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\efeyl\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
