@@ -1,18 +1,40 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Backend.DataAccess.Contexts;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
-namespace Backend.API.Controllers
+namespace Backend.API.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class UserController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class UserController : ControllerBase
+    private readonly AppDbContext _context;
+    public UserController(AppDbContext context)
     {
-        [HttpGet("me")]
-        [Authorize]
-        public IActionResult GetMe()
+        _context = context;
+    }
+
+
+    [HttpGet("me")]
+    [Authorize]
+    public async Task<IActionResult> GetMe()
+    {
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (string.IsNullOrEmpty(userIdStr)) return Unauthorized();
+
+        int userId = int.Parse(userIdStr);
+
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
+        if (user == null) return NotFound();
+
+        return Ok(new
         {
-            var username = User.Identity?.Name;
-            return Ok(new { message = $"Hoş geldin, {username}" });
-        }
+            user.Id,
+            user.Username,
+            user.Email,
+            user.Coin
+        });
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Backend.Business.Mapping;
 using Backend.Business.Services;
+using Backend.Core.Entities;
 using Backend.Core.Interfaces;
 using Backend.DataAccess.Contexts;
 using Backend.DataAccess.Repositories;
@@ -8,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -73,9 +75,26 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddScoped<MarketService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    if (!context.MarketItems.Any())
+    {
+        context.MarketItems.AddRange(new List<MarketItem>
+        {
+            new MarketItem { Name = "Elma", Price = 10, Stock = 5 },
+            new MarketItem { Name = "Kılıç", Price = 100, Stock = 6 },
+            new MarketItem { Name = "Zırh", Price = 150, Stock = 8 },
+        });
+
+        context.SaveChanges();
+    }
+}
 
 
 if (app.Environment.IsDevelopment())

@@ -9,7 +9,7 @@ namespace Backend.Core.Entities
     public class InventoryItem
     {
         public int Id { get; set; }
-        public int PlayerId { get; set; }
+        public int UserId { get; set; }
         public User User { get; set; } = null!;
 
         public string ItemName { get; set; } = null!;

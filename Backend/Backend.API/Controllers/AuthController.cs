@@ -3,50 +3,54 @@ using Backend.API.Dtos;
 using Backend.Core.Entities;
 using Backend.Core.Helpers;
 using Backend.Core.Interfaces;
+using Backend.DataAccess.Contexts;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace Backend.API.Controllers
+namespace Backend.API.Controllers;
+
+[ApiController]
+[Route("api/[controller]")]
+public class AuthController : ControllerBase
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class AuthController : ControllerBase
+    private readonly IUserService _userService;
+    private readonly IConfiguration _config;
+    private readonly IMapper _mapper;
+
+    public AuthController(IUserService userService, IConfiguration config, IMapper mapper)
     {
-        private readonly IUserService _userService;
-        private readonly IConfiguration _config;
-        private readonly IMapper _mapper;
+        _userService = userService;
+        _config = config;
+        _mapper = mapper;
+    }
 
-        public AuthController(IUserService userService, IConfiguration config, IMapper mapper)
+    [HttpPost("register")]
+    public async Task<IActionResult> Register(UserRegisterDto dto)
+    {
+        var user = _mapper.Map<User>(dto);
+        user.Coin = 100; // başlangıç coin
+
+        bool result = await _userService.RegisterAsync(user, dto.Password);
+        if (!result)
+            return BadRequest(new { message = "Email already exists." });
+
+        return Ok(new { message = "User registered successfully with 100 coins." });
+    }
+
+
+    [HttpPost("login")]
+    public async Task<IActionResult> Login(UserLoginDto dto)
+    {
+        var user = await _userService.LoginAsync(dto.Email, dto.Password);
+        if (user == null)
+            return Unauthorized(new { message = "Invalid credentials." });
+
+        
+        var token = TokenHelper.GenerateToken(user, _config);
+
+        return Ok(new
         {
-            _userService = userService;
-            _config = config;
-            _mapper = mapper;
-        }
-
-        [HttpPost("register")]
-        public async Task<IActionResult> Register(UserRegisterDto dto)
-        {
-            var user = _mapper.Map<User>(dto);
-
-            bool result = await _userService.RegisterAsync(user, dto.Password);
-            if (!result) return BadRequest(new { message = "Email already exists." });
-
-            return Ok(new { message = "User registered successfully." });
-        }
-
-        [HttpPost("login")]
-        public async Task<IActionResult> Login(UserLoginDto dto)
-        {
-            var user = await _userService.LoginAsync(dto.Email, dto.Password);
-            if (user == null)
-                return Unauthorized(new { message = "Invalid credentials." });
-
-            var token = TokenHelper.GenerateToken(user, _config);
-
-            return Ok(new
-            {
-                token,
-                user = new { user.Id, user.Username, user.Email }
-            });
-        }
+            token,
+        });
     }
 }
