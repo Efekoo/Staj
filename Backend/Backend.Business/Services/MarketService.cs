@@ -1,7 +1,7 @@
 ﻿using Backend.DataAccess.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Backend.Core.Entities;
-
+using Backend.Business.Results;
 
 namespace Backend.Business.Services
 {
@@ -14,36 +14,34 @@ namespace Backend.Business.Services
             _context = context;
         }
 
-        public async Task<bool> PurchaseItemAsync(int userId, string itemName )
+        public async Task<OperationResult> BuyItemAsync(int userId, string itemName, int quantity)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId);
-            var item = await _context.MarketItems.FirstOrDefaultAsync(m => m.Name== itemName);
+            var user = await _context.Users.FindAsync(userId);
+            var item = await _context.MarketItems.FirstOrDefaultAsync(i => i.Name == itemName);
 
-            if (user == null || item == null || item.Stock <= 0 || user.Coin < item.Price)
-                return false;
+            if (user == null || item == null)
+                return OperationResult.Failure("Kullanıcı veya ürün bulunamadı.");
 
-            user.Coin -= item.Price;
-            item.Stock--;
+            if (item.Stock < quantity)
+                return OperationResult.Failure("Yeterli stok yok.");
+
+            var totalCost = item.Price * quantity;
+            if (user.Coin < totalCost)
+                return OperationResult.Failure("Yetersiz bakiye.");
+
+            item.Stock -= quantity;
+            user.Coin -= totalCost;
 
             var inventoryItem = await _context.InventoryItems
-                .FirstOrDefaultAsync(i => i.UserId == userId && i.ItemName == item.Name);
+                .FirstOrDefaultAsync(i => i.UserId == userId && i.ItemName == itemName);
 
-            if (inventoryItem == null)
-            {
-                _context.InventoryItems.Add(new InventoryItem
-                {
-                    UserId = userId,
-                    ItemName = item.Name,
-                    Quantity = 1
-                });
-            }
+            if (inventoryItem != null)
+                inventoryItem.Quantity += quantity;
             else
-            {
-                inventoryItem.Quantity++;
-            }
+                _context.InventoryItems.Add(new InventoryItem { UserId = userId, ItemName = itemName, Quantity = quantity });
 
             await _context.SaveChangesAsync();
-            return true;
+            return OperationResult.Success("Ürün başarıyla satın alındı.");
         }
 
 
@@ -54,29 +52,28 @@ namespace Backend.Business.Services
 
 
 
-        public async Task<bool> SellItemAsync(int userId, string itemName)
+        public async Task<OperationResult> SellItemAsync(int userId, string itemName, int quantity)
         {
+            var user = await _context.Users.FindAsync(userId);
+            var item = await _context.MarketItems.FirstOrDefaultAsync(i => i.Name == itemName);
             var inventoryItem = await _context.InventoryItems
                 .FirstOrDefaultAsync(i => i.UserId == userId && i.ItemName == itemName);
 
-            if (inventoryItem == null || inventoryItem.Quantity <= 0)
-                return false;
+            if (user == null || item == null || inventoryItem == null)
+                return OperationResult.Failure("Veri bulunamadı.");
 
-            var marketItem = await _context.MarketItems
-                .FirstOrDefaultAsync(m => m.Name == itemName);
+            if (inventoryItem.Quantity < quantity)
+                return OperationResult.Failure("Envanterde yeterli ürün yok.");
 
-            var user = await _context.Users
-                .FirstOrDefaultAsync(u => u.Id == userId);
+            inventoryItem.Quantity -= quantity;
+            user.Coin += item.Price * quantity;
+            item.Stock += quantity;
 
-            if (marketItem == null || user == null)
-                return false;
-
-            inventoryItem.Quantity--;
-            marketItem.Stock++;
-            user.Coin += marketItem.Price;
+            if (inventoryItem.Quantity == 0)
+                _context.InventoryItems.Remove(inventoryItem);
 
             await _context.SaveChangesAsync();
-            return true;
+            return OperationResult.Success("Ürün başarıyla satıldı.");
         }
     }
 }

@@ -2,14 +2,19 @@
   {
     "ContainingType": "Backend.API.Controllers.AuthController",
     "Method": "Login",
-    "RelativePath": "api/Auth/login",
+    "RelativePath": "api/Auth/login/{email}/{password}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "Backend.API.Dtos.UserLoginDto",
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
@@ -18,14 +23,76 @@
   {
     "ContainingType": "Backend.API.Controllers.AuthController",
     "Method": "Register",
-    "RelativePath": "api/Auth/register",
+    "RelativePath": "api/Auth/register/{username}/{email}/{password}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "Backend.API.Dtos.UserRegisterDto",
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.API.Controllers.FriendController",
+    "Method": "AcceptBySender",
+    "RelativePath": "api/Friend/accept",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.API.Controllers.FriendController",
+    "Method": "GetFriends",
+    "RelativePath": "api/Friend/list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.API.Controllers.FriendController",
+    "Method": "GetPending",
+    "RelativePath": "api/Friend/pending",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.API.Controllers.FriendController",
+    "Method": "SendRequest",
+    "RelativePath": "api/Friend/send",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiverId",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -54,7 +121,7 @@
   {
     "ContainingType": "Backend.API.Controllers.MarketController",
     "Method": "BuyItem",
-    "RelativePath": "api/Market/buy/{itemName}",
+    "RelativePath": "api/Market/buy/{itemName}/{quantity}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -63,6 +130,11 @@
         "Name": "itemName",
         "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -70,7 +142,7 @@
   {
     "ContainingType": "Backend.API.Controllers.MarketController",
     "Method": "SellItem",
-    "RelativePath": "api/Market/sell/{itemName}",
+    "RelativePath": "api/Market/sell/{itemName}/{quantity}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -78,6 +150,27 @@
       {
         "Name": "itemName",
         "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantity",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Backend.API.Controllers.UserController",
+    "Method": "AddXP",
+    "RelativePath": "api/User/add-xp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "xpToAdd",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

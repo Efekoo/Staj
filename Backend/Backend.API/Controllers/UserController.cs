@@ -1,7 +1,9 @@
-﻿using Backend.DataAccess.Contexts;
+﻿using Backend.Core.Interfaces;
+using Backend.DataAccess.Contexts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Runtime.CompilerServices;
 using System.Security.Claims;
 
 namespace Backend.API.Controllers;
@@ -10,10 +12,13 @@ namespace Backend.API.Controllers;
 [Route("api/[controller]")]
 public class UserController : ControllerBase
 {
+    private readonly IUserService _userService;
     private readonly AppDbContext _context;
-    public UserController(AppDbContext context)
+    public UserController(AppDbContext context, IUserService userService)
     {
+        _userService = userService;
         _context = context;
+       
     }
 
 
@@ -34,7 +39,28 @@ public class UserController : ControllerBase
             user.Id,
             user.Username,
             user.Email,
-            user.Coin
+            user.Coin,
+            user.XP,
+            user.Level
+        });
+    }
+    [HttpPost("add-xp")]
+    [Authorize]
+    public async Task<IActionResult> AddXP([FromBody] int xpToAdd)
+    {
+        var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+        if (userIdStr == null) return Unauthorized();
+
+        int userId = int.Parse(userIdStr);
+
+        await _userService.AddXPAsync(userId, xpToAdd);
+
+        var updatedUser = await _userService.GetUserByIdAsync(userId);
+        return Ok(new
+        {
+            updatedUser.Level,
+            updatedUser.XP,
+            Message = $"{xpToAdd} XP eklendi. Yeni seviye: {updatedUser.Level}"
         });
     }
 }

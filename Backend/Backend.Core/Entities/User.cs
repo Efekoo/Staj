@@ -7,6 +7,8 @@
         public string Email { get; set; } = null!;
         public string PasswordHash { get; set; } = null!;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public int XP { get; set; } = 0;
+        public int Level { get; set; } = 1;
         public int Coin { get; set; } = 100;
     }
 }

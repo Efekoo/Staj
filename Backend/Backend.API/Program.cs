@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
+using Backend.DataAccess.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,6 +41,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<IUserService, UserManager>();
+builder.Services.AddScoped<FriendRepository>();
 
 
 builder.Services.AddSwaggerGen(c =>
@@ -95,6 +97,7 @@ using (var scope = app.Services.CreateScope())
         context.SaveChanges();
     }
 }
+
 
 
 if (app.Environment.IsDevelopment())

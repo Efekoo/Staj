@@ -24,9 +24,16 @@ public class InventoryController : ControllerBase
         if (string.IsNullOrEmpty(userIdStr)) return Unauthorized();
 
         int userId = int.Parse(userIdStr);
-        var inventory=await _context.InventoryItems
-            .Where(i => i.UserId == userId)
-            .ToListAsync();
+        var inventory = await _context.InventoryItems
+        .Where(i => i.UserId == userId)
+        .Include(i => i.User)
+        .Select(i => new
+        {
+            i.Id,
+            i.ItemName,
+            i.Quantity,
+        })
+        .ToListAsync();
 
         return Ok(inventory);
     }

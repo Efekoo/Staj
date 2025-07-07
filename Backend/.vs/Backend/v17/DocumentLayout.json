@@ -3,123 +3,163 @@
   "WorkspaceRootPath": "D:\\Github_Pro\\Staj\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\backend.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\backend.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\services\\marketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\services\\marketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\repositories\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\repositories\\friendrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\dtos\\userleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\dtos\\userleaderboarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\services\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\marketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\marketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250702132129_addmarketitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250702132129_addmarketitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\leaderboardcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\leaderboardcontroller .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\results\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\results\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\backend.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\backend.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\marketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\dtos\\marketitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\dtos\\marketitemcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250630085027_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250630085027_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\controllers\\friendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\controllers\\friendcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\services\\marketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\services\\marketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\backend.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\backend.business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132106_AddInventoryItemTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend.DataAccess\\Migrations\\20250702132106_AddInventoryItemTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132030_AddCurrencyTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend.DataAccess\\Migrations\\20250702132030_AddCurrencyTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\friendrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704113631_FriendRequestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend.DataAccess\\Migrations\\20250704113631_FriendRequestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250702132106_addinventoryitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250702132106_addinventoryitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250702132129_addmarketitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250702132129_addmarketitemtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250703120603_addcointouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250703120603_addcointouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250704074604_addxpandleveltouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250704074604_addxpandleveltouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\migrations\\20250630085027_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\migrations\\20250630085027_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704092851_AddFriendRequestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend.DataAccess\\Migrations\\20250704092851_AddFriendRequestTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\entities\\marketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\entities\\marketitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|d:\\github_pro\\staj\\backend\\backend.business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C79A134-231C-4DB3-99AF-78857E81EDF1}|Backend.Business\\Backend.Business.csproj|solutionrelative:backend.business\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|d:\\github_pro\\staj\\backend\\backend.dataaccess\\backend.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8CA28DAB-FBB5-4E6B-A8FE-976C1A856DD7}|Backend.DataAccess\\Backend.DataAccess.csproj|solutionrelative:backend.dataaccess\\backend.dataaccess.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\backend.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\backend.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\helpers\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|solutionrelative:backend.api\\backend.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|d:\\github_pro\\staj\\backend\\backend.core\\backend.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{34106709-352B-49EF-BA06-B93F206419E9}|Backend.Core\\Backend.Core.csproj|solutionrelative:backend.core\\backend.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{582EE37C-0803-4713-83CA-B92ABB806074}|Backend.API\\Backend.API.csproj|d:\\github_pro\\staj\\backend\\backend.api\\backend.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -133,7 +173,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,124 +181,136 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MarketService.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\MarketService.cs",
-              "RelativeDocumentMoniker": "Backend.Business\\Services\\MarketService.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\MarketService.cs",
-              "RelativeToolTip": "Backend.Business\\Services\\MarketService.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwCQAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T06:32:39.411Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Backend.API\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Backend.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:28:50.847Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Backend.DataAccess\\Repositories\\UserRepository.cs",
               "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Backend.DataAccess\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T08:07:32.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Backend.API.http",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.http",
-              "RelativeDocumentMoniker": "Backend.API\\Backend.API.http",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.http",
-              "RelativeToolTip": "Backend.API\\Backend.API.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-06-30T08:59:01.463Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "Backend.API\\Controllers\\InventoryController.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "Backend.API\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAwB4AAAARAAAAAAAAAA==",
+              "Title": "FriendRepository.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Repositories\\FriendRepository.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Repositories\\FriendRepository.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Repositories\\FriendRepository.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Repositories\\FriendRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T06:31:01.874Z",
+              "WhenOpened": "2025-07-04T10:02:57.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Backend.API\\Properties\\launchSettings.json",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Backend.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T08:59:08.427Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Backend.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Backend.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\UserManager.cs",
+              "RelativeDocumentMoniker": "Backend.Business\\Services\\UserManager.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\UserManager.cs",
+              "RelativeToolTip": "Backend.Business\\Services\\UserManager.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAswEYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:10:22.913Z",
+              "WhenOpened": "2025-06-30T08:08:32.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MarketController.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\MarketController.cs",
-              "RelativeDocumentMoniker": "Backend.API\\Controllers\\MarketController.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\MarketController.cs",
-              "RelativeToolTip": "Backend.API\\Controllers\\MarketController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA3wDoAAAAxAAAAAAAAAA==",
+              "Title": "UserLeaderboardDto.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Dtos\\UserLeaderboardDto.cs",
+              "RelativeDocumentMoniker": "Backend.Business\\Dtos\\UserLeaderboardDto.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Dtos\\UserLeaderboardDto.cs",
+              "RelativeToolTip": "Backend.Business\\Dtos\\UserLeaderboardDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T08:28:58.284Z",
+              "WhenOpened": "2025-07-04T14:17:25.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventoryItem.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\InventoryItem.cs",
-              "RelativeDocumentMoniker": "Backend.Core\\Entities\\InventoryItem.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\InventoryItem.cs",
-              "RelativeToolTip": "Backend.Core\\Entities\\InventoryItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "LeaderboardController .cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\LeaderboardController .cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\LeaderboardController .cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\LeaderboardController .cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\LeaderboardController .cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAEwBcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T12:17:08.723Z",
+              "WhenOpened": "2025-07-04T14:30:45.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Results\\OperationResult.cs",
+              "RelativeDocumentMoniker": "Backend.Business\\Results\\OperationResult.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Results\\OperationResult.cs",
+              "RelativeToolTip": "Backend.Business\\Results\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:21:08.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Dtos\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "Backend.Business\\Dtos\\UserRegisterDto.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Dtos\\UserRegisterDto.cs",
+              "RelativeToolTip": "Backend.Business\\Dtos\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T12:34:03.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Backend.Core\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:03:15.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Backend.Core.csproj",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
+              "RelativeDocumentMoniker": "Backend.Core\\Backend.Core.csproj",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
+              "RelativeToolTip": "Backend.Core\\Backend.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T11:16:50.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:28:50.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CurrencyController.cs",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\CurrencyController.cs",
               "RelativeDocumentMoniker": "Backend.API\\Controllers\\CurrencyController.cs",
@@ -266,181 +318,97 @@
               "RelativeToolTip": "Backend.API\\Controllers\\CurrencyController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T06:39:11.682Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T06:39:11.682Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\appsettings.json",
-              "RelativeDocumentMoniker": "Backend.API\\appsettings.json",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\appsettings.json",
-              "RelativeToolTip": "Backend.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T08:11:39.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20250703120603_AddCoinToUser.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
-              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
-              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA5wDAAAAATAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "MarketController.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\MarketController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\MarketController.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\MarketController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\MarketController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAYwD4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T12:06:03.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserManager.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\UserManager.cs",
-              "RelativeDocumentMoniker": "Backend.Business\\Services\\UserManager.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\UserManager.cs",
-              "RelativeToolTip": "Backend.Business\\Services\\UserManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:08:32.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\DbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Backend.DataAccess\\DbContext\\AppDbContext.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\DbContext\\AppDbContext.cs",
-              "RelativeToolTip": "Backend.DataAccess\\DbContext\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:04:01.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "MarketItem.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\MarketItem.cs",
-              "RelativeDocumentMoniker": "Backend.Core\\Entities\\MarketItem.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\MarketItem.cs",
-              "RelativeToolTip": "Backend.Core\\Entities\\MarketItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T12:20:39.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250702132129_AddMarketItemTable.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
-              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
-              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:21:29.833Z",
+              "WhenOpened": "2025-07-02T08:28:58.284Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Backend.Core\\Entities\\User.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\User.cs",
-              "RelativeToolTip": "Backend.Core\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "FriendController.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\FriendController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\FriendController.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\FriendController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\FriendController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowEkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:02:24.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-04T08:51:43.854Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "Backend.Core\\Interfaces\\IUserService.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "Backend.Core\\Interfaces\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Title": "MarketService.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\MarketService.cs",
+              "RelativeDocumentMoniker": "Backend.Business\\Services\\MarketService.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Services\\MarketService.cs",
+              "RelativeToolTip": "Backend.Business\\Services\\MarketService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwv08AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:03:15.533Z",
+              "WhenOpened": "2025-07-02T06:32:39.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
+              "ViewState": "AgIAAKMBAAAAAAAAAAAswKYBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-07-01T11:59:23.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TokenHelper.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Helpers\\TokenHelper.cs",
-              "RelativeDocumentMoniker": "Backend.Core\\Helpers\\TokenHelper.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Helpers\\TokenHelper.cs",
-              "RelativeToolTip": "Backend.Core\\Helpers\\TokenHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwDcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:17:10.555Z",
+              "WhenOpened": "2025-06-30T08:10:22.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Backend.Business\\Mapping\\MappingProfile.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Backend.Business\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Controllers\\InventoryController.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Backend.API\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwCIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T11:49:36.779Z",
+              "WhenOpened": "2025-07-03T06:31:01.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
               "Title": "MarketItemCreateDto.cs",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Dtos\\MarketItemCreateDto.cs",
               "RelativeDocumentMoniker": "Backend.Business\\Dtos\\MarketItemCreateDto.cs",
               "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Dtos\\MarketItemCreateDto.cs",
               "RelativeToolTip": "Backend.Business\\Dtos\\MarketItemCreateDto.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T11:11:17.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T11:11:17.019Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Program.cs",
-              "RelativeDocumentMoniker": "Backend.API\\Program.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Program.cs",
-              "RelativeToolTip": "Backend.API\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:11:12.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250630085027_InitialCreate.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
-              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:50:27.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 18,
               "Title": "Backend.Business.csproj",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Backend.Business.csproj",
               "RelativeDocumentMoniker": "Backend.Business\\Backend.Business.csproj",
@@ -453,19 +421,103 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend.API\\appsettings.json",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\appsettings.json",
+              "RelativeToolTip": "Backend.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T08:11:39.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FriendRequest.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\FriendRequest.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\FriendRequest.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\FriendRequest.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\FriendRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T08:44:17.096Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 25,
-              "Title": "20250702132030_AddCurrencyTable.cs",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132030_AddCurrencyTable.cs",
-              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250702132030_AddCurrencyTable.cs",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132030_AddCurrencyTable.cs",
-              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250702132030_AddCurrencyTable.cs",
+              "Title": "20250704074604_AddXpAndLevelToUser.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704074604_AddXpAndLevelToUser.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250704074604_AddXpAndLevelToUser.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704074604_AddXpAndLevelToUser.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250704074604_AddXpAndLevelToUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T13:20:30.797Z"
+              "WhenOpened": "2025-07-04T07:46:04.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250630085027_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250630085027_InitialCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:50:27.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250704113631_FriendRequestTable.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704113631_FriendRequestTable.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250704113631_FriendRequestTable.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704113631_FriendRequestTable.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250704113631_FriendRequestTable.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T11:36:31.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250702132129_AddMarketItemTable.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250702132129_AddMarketItemTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T13:21:29.833Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
+              "Title": "20250703120603_AddCoinToUser.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250703120603_AddCoinToUser.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T12:06:03.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:48:31.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "20250702132106_AddInventoryItemTable.cs",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250702132106_AddInventoryItemTable.cs",
               "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250702132106_AddInventoryItemTable.cs",
@@ -477,7 +529,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\DbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\DbContext\\AppDbContext.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\DbContext\\AppDbContext.cs",
+              "RelativeToolTip": "Backend.DataAccess\\DbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:04:01.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Program.cs",
+              "RelativeDocumentMoniker": "Backend.API\\Program.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Program.cs",
+              "RelativeToolTip": "Backend.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:11:12.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Backend.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Backend.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-30T08:59:08.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InventoryItem.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\InventoryItem.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\InventoryItem.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\InventoryItem.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\InventoryItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:17:08.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250704092851_AddFriendRequestTable.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704092851_AddFriendRequestTable.cs",
+              "RelativeDocumentMoniker": "Backend.DataAccess\\Migrations\\20250704092851_AddFriendRequestTable.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Migrations\\20250704092851_AddFriendRequestTable.cs",
+              "RelativeToolTip": "Backend.DataAccess\\Migrations\\20250704092851_AddFriendRequestTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T09:28:51.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MarketItem.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\MarketItem.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\MarketItem.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\MarketItem.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\MarketItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T12:20:39.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Backend.Business\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Business\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Backend.Business\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:49:36.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Entities\\User.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Entities\\User.cs",
+              "RelativeToolTip": "Backend.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T08:02:24.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "Backend.DataAccess.csproj",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.DataAccess\\Backend.DataAccess.csproj",
               "RelativeDocumentMoniker": "Backend.DataAccess\\Backend.DataAccess.csproj",
@@ -485,11 +633,36 @@
               "RelativeToolTip": "Backend.DataAccess\\Backend.DataAccess.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T08:03:42.476Z"
+              "WhenOpened": "2025-06-30T08:03:42.476Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
+              "Title": "Backend.API.http",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.http",
+              "RelativeDocumentMoniker": "Backend.API\\Backend.API.http",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.http",
+              "RelativeToolTip": "Backend.API\\Backend.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-30T08:59:01.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TokenHelper.cs",
+              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Helpers\\TokenHelper.cs",
+              "RelativeDocumentMoniker": "Backend.Core\\Helpers\\TokenHelper.cs",
+              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Helpers\\TokenHelper.cs",
+              "RelativeToolTip": "Backend.Core\\Helpers\\TokenHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T11:17:10.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
               "Title": "Backend.API.csproj",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
               "RelativeDocumentMoniker": "Backend.API\\Backend.API.csproj",
@@ -497,40 +670,20 @@
               "RelativeToolTip": "Backend.API\\Backend.API.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T08:09:19.308Z"
+              "WhenOpened": "2025-06-30T08:09:19.308Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Backend.Core.csproj",
-              "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
-              "RelativeDocumentMoniker": "Backend.Core\\Backend.Core.csproj",
-              "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.Core\\Backend.Core.csproj",
-              "RelativeToolTip": "Backend.Core\\Backend.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T11:16:50.948Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\Sdks\\Microsoft.NET.Sdk.StaticWebAssets\\targets\\Microsoft.NET.Sdk.StaticWebAssets.JSModules.targets",
-              "ViewState": "AgIAAI4BAAAAAAAAAAAmwKYBAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-07-01T11:59:23.482Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": "Backend.API",
               "DocumentMoniker": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
               "RelativeDocumentMoniker": "Backend.API\\Backend.API.csproj",
               "ToolTip": "D:\\Github_Pro\\Staj\\Backend\\Backend.API\\Backend.API.csproj",
               "RelativeToolTip": "Backend.API\\Backend.API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T11:20:57.715Z"
+              "WhenOpened": "2025-06-30T11:20:57.715Z",
+              "EditorCaption": ""
             }
           ]
         }

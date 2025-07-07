@@ -1,13 +1,6 @@
-D:\Github_Pro\Staj\Backend\Backend.Core\bin\Debug\net9.0\Backend.Core.deps.json
-D:\Github_Pro\Staj\Backend\Backend.Core\bin\Debug\net9.0\Backend.Core.dll
-D:\Github_Pro\Staj\Backend\Backend.Core\bin\Debug\net9.0\Backend.Core.pdb
 D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.csproj.AssemblyReference.cache
 D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.AssemblyInfoInputs.cache
 D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.AssemblyInfo.cs
 D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.csproj.CoreCompileInputs.cache
 D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.sourcelink.json
-D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.dll
-D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\refint\Backend.Core.dll
-D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\Backend.Core.pdb
-D:\Github_Pro\Staj\Backend\Backend.Core\obj\Debug\net9.0\ref\Backend.Core.dll

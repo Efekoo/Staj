@@ -12,4 +12,16 @@ namespace Backend.Business.Dtos
         public int Price { get; set; }
         public int Stock { get; set; }
     }
+
+    public class BuyItemDto
+    {
+        public string ItemName { get; set; } = null!;
+        public int Quantity { get; set; }
+    }
+
+    public class SellItemDto
+    {
+        public string ItemName { get; set; } = null!;
+        public int Quantity { get; set; }
+    }
 }

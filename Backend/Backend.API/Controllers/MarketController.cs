@@ -1,6 +1,7 @@
-﻿using Backend.Business.Services;
-using Microsoft.AspNetCore.Mvc;
+﻿using Backend.Business.Dtos;
+using Backend.Business.Services;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
 namespace Backend.API.Controllers
@@ -17,20 +18,20 @@ namespace Backend.API.Controllers
         }
 
 
-        [HttpPost("buy/{itemName}")]
+        [HttpPost("buy/{itemName}/{quantity}")]
         [Authorize]
-        public async Task<IActionResult> BuyItem(string itemName)
+        public async Task<IActionResult> BuyItem(string itemName, int quantity)
         {
             var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userIdStr)) return Unauthorized();
 
             int userId = int.Parse(userIdStr);
-            var success = await _marketService.PurchaseItemAsync(userId, itemName);
+            var result = await _marketService.BuyItemAsync(userId, itemName, quantity);
 
-            if (!success)
-                return BadRequest("Ürün bulunamadı, stokta yok veya paranız yetersiz.");
+            if (!result.IsSuccess)
+                return BadRequest(result.Message);
 
-            return Ok("Ürün başarıyla satın alındı.");
+            return Ok(result.Message);
         }
 
 
@@ -43,20 +44,20 @@ namespace Backend.API.Controllers
         }
 
 
-        [HttpPost("sell/{itemName}")]
+        [HttpPost("sell/{itemName}/{quantity}")]
         [Authorize]
-        public async Task<IActionResult> SellItem(string itemName)
+        public async Task<IActionResult> SellItem(string itemName, int quantity)
         {
             var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
             if (string.IsNullOrEmpty(userIdStr)) return Unauthorized();
 
             int userId = int.Parse(userIdStr);
-            var success = await _marketService.SellItemAsync(userId, itemName);
+            var result = await _marketService.SellItemAsync(userId, itemName, quantity);
 
-            if (!success)
-                return BadRequest("Ürün envanterde bulunamadı veya miktar yetersiz.");
+            if (!result.IsSuccess)
+                return BadRequest(result.Message);
 
-            return Ok("Ürün başarıyla satıldı.");
+            return Ok(result.Message);
         }
     }
 }
