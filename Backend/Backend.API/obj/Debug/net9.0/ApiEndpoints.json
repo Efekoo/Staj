@@ -109,6 +109,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Backend.API.Controllers.LeaderboardController",
+    "Method": "GetTopUsers",
+    "RelativePath": "api/Leaderboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Backend.Core.DTOs.UserLeaderboardDto, Backend.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Backend.API.Controllers.MarketController",
     "Method": "GetAllItems",
     "RelativePath": "api/Market",
