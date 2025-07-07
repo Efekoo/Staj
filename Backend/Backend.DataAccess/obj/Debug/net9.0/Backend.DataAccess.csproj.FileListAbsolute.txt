@@ -1,6 +1,16 @@
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\bin\Debug\net9.0\Backend.DataAccess.deps.json
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\bin\Debug\net9.0\Backend.DataAccess.dll
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\bin\Debug\net9.0\Backend.DataAccess.pdb
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\bin\Debug\net9.0\Backend.Core.dll
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\bin\Debug\net9.0\Backend.Core.pdb
 D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.csproj.AssemblyReference.cache
 D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.AssemblyInfoInputs.cache
 D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.AssemblyInfo.cs
 D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.csproj.CoreCompileInputs.cache
 D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.sourcelink.json
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend..FBE6921F.Up2Date
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.dll
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\refint\Backend.DataAccess.dll
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\Backend.DataAccess.pdb
+D:\Github_Pro\Staj\Backend\Backend.DataAccess\obj\Debug\net9.0\ref\Backend.DataAccess.dll

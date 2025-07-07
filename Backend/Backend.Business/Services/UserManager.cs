@@ -1,7 +1,9 @@
-﻿using Backend.Core.Entities;
+﻿using Backend.Core.DTOs;
+using Backend.Core.Entities;
 using Backend.Core.Interfaces;
+using Backend.DataAccess.Contexts;
 using Backend.DataAccess.Repositories;
-
+using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Business.Services
 {
@@ -10,10 +12,13 @@ namespace Backend.Business.Services
     {
 
         private readonly UserRepository _userRepository;
+        private readonly AppDbContext _context;
 
-        public UserManager(UserRepository userRepository)
+        public UserManager(UserRepository userRepository, AppDbContext context)
         {
             _userRepository = userRepository;
+            _context = context;
+
         }
 
         public async Task<bool> RegisterAsync(User user, string plainPassword)
@@ -64,7 +69,7 @@ namespace Backend.Business.Services
         }
         public async Task<List<UserLeaderboardDto>> GetTopUsersAsync()
         {
-            return await _context.Users
+            var user=await _context.Users
                 .OrderByDescending(u => u.Level)
                 .ThenByDescending(u => u.XP)
                 .Take(10)
@@ -75,6 +80,12 @@ namespace Backend.Business.Services
                     XP = u.XP
                 })
                 .ToListAsync();
+
+            for (int i = 0; i < user.Count; i++)
+            {
+                user[i].Rank = i + 1;
+            }
+            return user;
         }
     }
 }

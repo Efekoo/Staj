@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Backend.API.Dtos;
 using Backend.Core.Entities;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using Backend.Core.DTOs;
 
 namespace Backend.Business.Mapping
 {

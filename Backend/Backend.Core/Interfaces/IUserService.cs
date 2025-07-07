@@ -1,4 +1,6 @@
 ﻿using Backend.Core.Entities;
+using Backend.Core.DTOs;
+
 
 namespace Backend.Core.Interfaces
 {

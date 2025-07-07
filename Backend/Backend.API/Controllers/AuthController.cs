@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Backend.API.Dtos;
+using Backend.Core.DTOs;
 using Backend.Core.Entities;
 using Backend.Core.Helpers;
 using Backend.Core.Interfaces;
