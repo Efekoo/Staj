@@ -9,7 +9,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
-using Backend.DataAccess.Repositories;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -89,9 +88,9 @@ using (var scope = app.Services.CreateScope())
     {
         context.MarketItems.AddRange(new List<MarketItem>
         {
-            new MarketItem { Name = "Elma", Price = 10, Stock = 5 },
-            new MarketItem { Name = "Kılıç", Price = 100, Stock = 6 },
-            new MarketItem { Name = "Zırh", Price = 150, Stock = 8 },
+            new() { Name = "Elma", Price = 10, Stock = 5 },
+            new() { Name = "Kılıç", Price = 100, Stock = 6 },
+            new() { Name = "Zırh", Price = 150, Stock = 8 },
         });
 
         context.SaveChanges();
