@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/Efekoo/Staj/actions/workflows/ci.yml/badge.svg)](https://github.com/Efekoo/Staj/actions/workflows/ci.yml)
 
+**Live demo:** [gameservices-api.onrender.com/demo](https://gameservices-api.onrender.com/demo) · [Swagger](https://gameservices-api.onrender.com/swagger) *(free tier — first request may take ~30s to wake up)*
+
 A production-style backend REST API for game-like applications, built with **ASP.NET Core (.NET 9)** and **PostgreSQL**. It provides the core services a live game would need: authentication, player profiles, currency, inventory, market economy, friends, leaderboards — plus a **real-time leaderboard over SignalR**.
 
 ## Quick start
