@@ -1,7 +1,9 @@
-﻿using Backend.Core.Interfaces;
+﻿using Backend.API.Hubs;
+using Backend.Core.Interfaces;
 using Backend.DataAccess.Contexts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 using System.Runtime.CompilerServices;
 using System.Security.Claims;
@@ -14,11 +16,12 @@ public class UserController : ControllerBase
 {
     private readonly IUserService _userService;
     private readonly AppDbContext _context;
-    public UserController(AppDbContext context, IUserService userService)
+    private readonly IHubContext<LeaderboardHub> _leaderboardHub;
+    public UserController(AppDbContext context, IUserService userService, IHubContext<LeaderboardHub> leaderboardHub)
     {
         _userService = userService;
         _context = context;
-       
+        _leaderboardHub = leaderboardHub;
     }
 
 
@@ -54,6 +57,9 @@ public class UserController : ControllerBase
         int userId = int.Parse(userIdStr);
 
         await _userService.AddXPAsync(userId, xpToAdd);
+
+        var standings = await _userService.GetTopUsersAsync();
+        await _leaderboardHub.Clients.All.SendAsync("LeaderboardUpdated", standings);
 
         var updatedUser = await _userService.GetUserByIdAsync(userId);
         return Ok(new

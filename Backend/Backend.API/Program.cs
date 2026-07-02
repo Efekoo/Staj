@@ -75,6 +75,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 builder.Services.AddControllers();
+builder.Services.AddSignalR();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<MarketService>();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
@@ -116,6 +117,7 @@ app.UseAuthentication();
 app.UseAuthorization();  
 
 app.MapControllers();
+app.MapHub<Backend.API.Hubs.LeaderboardHub>("/hubs/leaderboard");
 app.Run();
 
 public partial class Program { }
