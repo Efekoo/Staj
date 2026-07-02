@@ -105,9 +105,17 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 
+app.UseStaticFiles();
+
 app.MapGet("/", context =>
 {
     context.Response.Redirect("/swagger");
+    return Task.CompletedTask;
+});
+
+app.MapGet("/demo", context =>
+{
+    context.Response.Redirect("/demo/index.html");
     return Task.CompletedTask;
 });
 

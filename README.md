@@ -12,6 +12,8 @@ docker compose up --build
 
 That's it — the API and PostgreSQL start together, migrations apply automatically, and Swagger UI is available at **http://localhost:8080/swagger**.
 
+There is also an interactive demo page at **http://localhost:8080/demo** — register, buy from the market, gain XP, and watch the SignalR leaderboard update live. Open it in two tabs and gain XP in one: both update instantly.
+
 ## Features
 
 | Domain | What it does |

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Services API — Live Demo</title>
+<script src="https://cdn.jsdelivr.net/npm/@microsoft/signalr@8.0.7/dist/browser/signalr.min.js"></script>
+<style>
+  :root { --bg:#0f1220; --card:#1a1f33; --line:#2a3050; --text:#e8eaf2; --muted:#9aa3c0; --accent:#6c8cff; --ok:#3ddc84; --err:#ff6b6b; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:system-ui, sans-serif; background:var(--bg); color:var(--text); min-height:100vh; padding:24px; }
+  h1 { font-size:20px; margin-bottom:4px; }
+  .sub { color:var(--muted); font-size:13px; margin-bottom:20px; }
+  .sub a { color:var(--accent); }
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:16px; max-width:1100px; }
+  @media (max-width:900px) { .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:16px; }
+  .card h2 { font-size:14px; text-transform:uppercase; letter-spacing:1px; color:var(--muted); margin-bottom:12px; }
+  input { width:100%; padding:8px 10px; margin-bottom:8px; border-radius:6px; border:1px solid var(--line); background:#12162a; color:var(--text); }
+  button { padding:8px 14px; border:none; border-radius:6px; background:var(--accent); color:#fff; cursor:pointer; font-weight:600; }
+  button:hover { filter:brightness(1.15); }
+  button.small { padding:4px 10px; font-size:12px; }
+  .row { display:flex; gap:8px; margin-top:4px; }
+  #msg { margin-top:10px; font-size:13px; min-height:18px; }
+  .ok { color:var(--ok); } .err { color:var(--err); }
+  table { width:100%; border-collapse:collapse; font-size:14px; }
+  td, th { padding:6px 4px; text-align:left; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-size:12px; text-transform:uppercase; }
+  .stat { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid var(--line); font-size:14px; }
+  .stat span:last-child { font-weight:700; }
+  .flash { animation:flash 0.8s; }
+  @keyframes flash { 0% { background:rgba(108,140,255,.35); } 100% { background:transparent; } }
+  .live { display:inline-block; width:8px; height:8px; border-radius:50%; background:var(--err); margin-right:6px; }
+  .live.on { background:var(--ok); }
+  .hidden { display:none; }
+</style>
+</head>
+<body>
+<h1>Game Services API — Live Demo</h1>
+<div class="sub">ASP.NET Core · PostgreSQL · JWT · SignalR — <a href="/swagger">Swagger</a> · <a href="https://github.com/Efekoo/Staj">source</a>. Open this page in two tabs and gain XP in one: the leaderboard updates live in both.</div>
+
+<div class="grid">
+  <div class="card">
+    <h2>Account</h2>
+    <div id="authForms">
+      <input id="username" placeholder="username">
+      <input id="email" placeholder="email" type="email">
+      <input id="password" placeholder="password" type="password">
+      <div class="row">
+        <button onclick="register()">Register</button>
+        <button onclick="login()">Login</button>
+      </div>
+    </div>
+    <div id="profile" class="hidden">
+      <div class="stat"><span>Player</span><span id="pUser"></span></div>
+      <div class="stat"><span>Level</span><span id="pLevel"></span></div>
+      <div class="stat"><span>XP</span><span id="pXp"></span></div>
+      <div class="stat"><span>Coins</span><span id="pCoin"></span></div>
+      <div class="row" style="margin-top:12px">
+        <button onclick="addXp()">⚡ Gain 60 XP</button>
+        <button class="small" onclick="logout()" style="background:#444c70">Logout</button>
+      </div>
+    </div>
+    <div id="msg"></div>
+  </div>
+
+  <div class="card">
+    <h2>Market</h2>
+    <table>
+      <thead><tr><th>Item</th><th>Price</th><th>Stock</th><th></th></tr></thead>
+      <tbody id="market"><tr><td colspan="4" style="color:var(--muted)">Login to view the market.</td></tr></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2><span id="liveDot" class="live"></span>Leaderboard (live)</h2>
+    <table>
+      <thead><tr><th>#</th><th>Player</th><th>Level</th><th>XP</th></tr></thead>
+      <tbody id="board"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+let token = null;
+
+const $ = id => document.getElementById(id);
+const msg = (text, ok) => { $("msg").textContent = text; $("msg").className = ok ? "ok" : "err"; };
+
+async function api(path, options = {}) {
+  options.headers = Object.assign({ "Content-Type": "application/json" }, options.headers || {});
+  if (token) options.headers["Authorization"] = "Bearer " + token;
+  const response = await fetch(path, options);
+  const body = await response.text();
+  let data; try { data = JSON.parse(body); } catch { data = body; }
+  if (!response.ok) throw new Error(typeof data === "string" ? data : (data.message || response.status));
+  return data;
+}
+
+async function register() {
+  try {
+    const data = await api("/api/Auth/register", { method: "POST", body: JSON.stringify({
+      username: $("username").value, email: $("email").value, password: $("password").value }) });
+    msg(data.message + " Now click Login.", true);
+  } catch (e) { msg(e.message, false); }
+}
+
+async function login() {
+  try {
+    const data = await api("/api/Auth/login", { method: "POST", body: JSON.stringify({
+      email: $("email").value, password: $("password").value }) });
+    token = data.token;
+    $("authForms").classList.add("hidden");
+    $("profile").classList.remove("hidden");
+    msg("Logged in.", true);
+    await Promise.all([refreshProfile(), refreshMarket()]);
+  } catch (e) { msg(e.message, false); }
+}
+
+function logout() {
+  token = null;
+  $("authForms").classList.remove("hidden");
+  $("profile").classList.add("hidden");
+  $("market").innerHTML = '<tr><td colspan="4" style="color:var(--muted)">Login to view the market.</td></tr>';
+  msg("Logged out.", true);
+}
+
+async function refreshProfile() {
+  const me = await api("/api/User/me");
+  $("pUser").textContent = me.username;
+  $("pLevel").textContent = me.level;
+  $("pXp").textContent = me.xp;
+  $("pCoin").textContent = me.coin + " 🪙";
+}
+
+async function refreshMarket() {
+  const items = await api("/api/Market");
+  $("market").innerHTML = items.map(i =>
+    `<tr><td>${i.name}</td><td>${i.price} 🪙</td><td>${i.stock}</td>
+     <td><button class="small" onclick="buy('${encodeURIComponent(i.name)}')">Buy</button></td></tr>`).join("");
+}
+
+async function buy(name) {
+  try {
+    const result = await api(`/api/Market/buy/${name}/1`, { method: "POST" });
+    msg(result, true);
+    await Promise.all([refreshProfile(), refreshMarket()]);
+  } catch (e) { msg(e.message, false); }
+}
+
+async function addXp() {
+  try {
+    const result = await api("/api/User/add-xp", { method: "POST", body: "60" });
+    msg(result.message, true);
+    await refreshProfile();
+  } catch (e) { msg(e.message, false); }
+}
+
+function renderBoard(standings) {
+  $("board").innerHTML = standings.map(s =>
+    `<tr><td>${s.rank}</td><td>${s.username}</td><td>${s.level}</td><td>${s.xp}</td></tr>`).join("");
+  $("board").parentElement.classList.remove("flash");
+  void $("board").parentElement.offsetWidth;
+  $("board").parentElement.classList.add("flash");
+}
+
+// Initial standings via REST need auth; the live hub does not.
+// So the board fills on first live update, or after login below.
+async function tryInitialBoard() {
+  if (!token) return;
+  try { renderBoard(await api("/api/Leaderboard")); } catch { }
+}
+
+const connection = new signalR.HubConnectionBuilder()
+  .withUrl("/hubs/leaderboard")
+  .withAutomaticReconnect()
+  .build();
+connection.on("LeaderboardUpdated", renderBoard);
+connection.start()
+  .then(() => $("liveDot").classList.add("on"))
+  .catch(() => $("liveDot").classList.remove("on"));
+
+const originalLogin = login;
+login = async function () { await originalLogin(); await tryInitialBoard(); };
+</script>
+</body>
+</html>

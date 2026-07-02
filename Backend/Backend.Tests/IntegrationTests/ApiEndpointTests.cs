@@ -164,6 +164,16 @@ public class ApiEndpointTests : IClassFixture<ApiFactory>
     }
 
     [Fact]
+    public async Task DemoPage_IsServed()
+    {
+        var client = _factory.CreateClient();
+        var response = await client.GetAsync("/demo/index.html");
+
+        response.EnsureSuccessStatusCode();
+        Assert.Contains("Live Demo", await response.Content.ReadAsStringAsync());
+    }
+
+    [Fact]
     public async Task Leaderboard_ReturnsRankedUsers()
     {
         var client = _factory.CreateClient();
