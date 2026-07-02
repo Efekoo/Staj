@@ -24,17 +24,17 @@ public class AuthController : ControllerBase
         _mapper = mapper;
     }
 
-    [HttpPost("register/{username}/{email}/{password}")]
-    public async Task<IActionResult> Register(string username, string email, string password)
+    [HttpPost("register")]
+    public async Task<IActionResult> Register([FromBody] UserRegisterDto dto)
     {
         var user = new User
         {
-            Username = username,
-            Email = email,
+            Username = dto.Username,
+            Email = dto.Email,
             Coin = 100
         };
 
-        bool result = await _userService.RegisterAsync(user, password);
+        bool result = await _userService.RegisterAsync(user, dto.Password);
         if (!result)
             return BadRequest(new { message = "Email already exists." });
 
@@ -42,10 +42,10 @@ public class AuthController : ControllerBase
     }
 
 
-    [HttpPost("login/{email}/{password}")]
-    public async Task<IActionResult> Login(string email, string password)
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] UserLoginDto dto)
     {
-        var user = await _userService.LoginAsync(email, password);
+        var user = await _userService.LoginAsync(dto.Email, dto.Password);
         if (user == null)
             return Unauthorized(new { message = "Invalid credentials." });
 

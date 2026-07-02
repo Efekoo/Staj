@@ -1,0 +1,26 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: gameservices
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: ./Backend
+    ports:
+      - "8080:8080"
+    environment:
+      ConnectionStrings__DefaultConnection: Host=db;Port=5432;Database=gameservices;Username=postgres;Password=postgres
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  pgdata:

@@ -35,7 +35,7 @@ builder.Services.AddAuthorization();
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 builder.Services.AddScoped<UserRepository>();
@@ -83,6 +83,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    context.Database.Migrate();
 
     if (!context.MarketItems.Any())
     {
@@ -99,11 +100,8 @@ using (var scope = app.Services.CreateScope())
 
 
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 
 app.MapGet("/", context =>
@@ -119,3 +117,5 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.Run();
+
+public partial class Program { }
